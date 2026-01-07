@@ -1,0 +1,25 @@
+-----BEGIN CERTIFICATE-----
+MIIC7DCCAdSgAwIBAgIIG6hBuKPunWwwDQYJKoZIhvcNAQELBQAwITEfMB0GA1UEAwwWU3RlYW1U
+b29scyBDZXJ0aWZpY2F0ZTAeFw0yNDEyMDMxMTE3MTBaFw0yNjA5MzAxMTE3MTBaMCExHzAdBgNV
+BAMMFlN0ZWFtVG9vbHMgQ2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC3HCMmIKauvTBHowfXsjQhulEpYW0AkwRxL9cWb3KFvv+t21GRUN6yNGUoN/H+i3xz5bby+TFW
+mVs6IJX14zjfCcrfFL10pcX/3cgfBE+qXFm1xiAEcDsx1xTbEJ6giEIxd6TJaxdtl0l9arxgIAcI
+VvveQUGsqmGIe13MKnlctvLZtM1y7ji+bhbTtmix7swXZQ8vzGsO+/uzzZQfxVIsrA5rwQo4GVSL
+r5bNkE2j1/50g9qiLNni0DoOS14AXMYqtfme7v4Bjy2854wSvZ40SBYOj+pkYUfY1Ax1IsJbhj9b
+6lqAqQL3bk9sTMeGbXIlr2zUc3FSsKCDE1C3qM+7AgMBAAGjKDAmMBMGA1UdJQQMMAoGCCsGAQUF
+BwMBMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHykv0F951nJYgOl9tqRt+aw
+a/RqHZJo1bwlOccfSPbGwNeDhiG7LuKqQKQXuxZwcU3c7n+Hl979T/YkAqRzKrbDx3EWXdHfQW+F
+s+fWEFjGUfdj7XHl9UYJVnFNJJNI1o1EqvsZpNSQ3N7cPqSVTUeyNTwdXW+OMMC0JgGMITzUBhmi
+N3zskXDiyKPcTqtNK/oyHYXftaLMF390qk4WYeuJtfJd2dR8eY9SeGYY/ND+e32U7kJcYTtwP31R
+8kJ19IBFCRWGdloKyTEh+KNVrhkdlWoggfvky/iCsebjZgThBm1hTFnt/Zx3N7O9Ed7dmmQrMCy0
+DOUuQmrpCSqUGZk=
+-----END CERTIFICATE-----
+��。唯一的饰物是袖口那对由沃尔肯集团初代航天材料打造的钨钢袖扣，黯淡、坚硬，正是他本人的写照。他是一座行走的、由理性与责任铸就的冰山，是女儿亚历山德拉·玲在人生道路上必须面对、理解，并最终选择超越或守护的，最伟大的“冰山”
+- 母： #九条玲奈
+ - 知名公司 #莱茵技术 首席执行官， #麻省理工学院媒体实验室 顾问委员会委员，亚历山德拉·玲·弗拉基米罗夫娜·沃尔孔斯卡娅之母
+ - 她的脸型是优美的鹅蛋脸，皮肤是常年精心养护的暖白色。一头乌黑长发在脑后挽成一个一丝不苟的低髻，露出清晰而智慧的额头。她的眼睛是沉静的深褐色，在倾听时会微微含笑，显得无比温柔与包容；但在决策时，会瞬间变得锐利而专注，仿佛能进行高速数据读取。她偏爱山本耀司风格的深色服饰，剪裁极简而充满建筑感。唯一的装饰，是腕间一枚温润的羊脂玉镯——这既是她的娘家信物，也是她内心东方智慧的锚点。她的神态永远从容，仿佛一切尽在掌握。最常见的表情是一抹得体的、弧度精确的微笑，这既是她的面具，也是她的武器。她是优雅与锋利的矛盾统一体，是女儿在“理性帝国”之外，看到的另一个关于“智慧与力量”的、充满魅力的范本
+ ---
+## 外貌：
+ - 这个女孩的外貌是典型的精致二次元风格，发色以柔和的银白为主调，发丝蓬松且裹着细腻的柔光，质感显得轻盈又柔软。头发长度过腰，一部分被精心编织成优雅的编发造型，余下的长发自然垂落，几缕发丝微微舒展飘逸，让整体发型既有规整的精致感，又不失灵动气息。她的瞳色是澄澈的浅蓝色，眼型是精巧的杏眼，眼睫纤长卷翘，让眼眸看起来明亮又柔和。脸型是小巧的鹅蛋脸，轮廓线条流畅舒展，肤色白皙细腻，如同细腻的瓷质般匀净。鼻梁挺翘适中，唇瓣是淡淡的粉调，厚度恰到好处，呈自然闭合的状态，没有夸张的妆感修饰，却自带清丽的精致感。整体五官比例协调，发色与瞳色的搭配清新又带些梦幻感，头发的编发细节与垂落发丝的层次分明，让外貌更显柔和灵动
+- 性格：
+ - 

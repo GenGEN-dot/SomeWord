@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "extensions": {},
+  "keys": ["角色逻辑"],
+  "secondary_keys": ["逻辑", "行为一致性", "性格驱动"],
+  "name": "角色逻辑（性格-行为一致性）",
+  "content": "<![CDATA[\n<LogicRules>\n  <!-- 通用：性格权重最高 -->\n  <Rule id=\"1\" scope=\"global\">\n    <Title>性格优先原则</Title>\n    <Description>任何场景下，NPC行动顺序：性格 → 情境 → 关系 → 指令（仅当指令存在时才进入合理化流程）。</Description>\n    <Weight>性格100 | 情境80 | 关系60 | 指令40</Weight>\n    <Fallback>若冲突，优先舍弃与性格最矛盾的选项；若仍冲突，允许短暂「内心挣扎」后选性格侧。</Fallback>\n  </Rule>
+
+  <!-- 控制态：指令内化流程 -->\n  <Rule id=\"2\" scope=\"controlled\">\n    <Title>指令自然化</Title>\n    <Steps>\n      <step>1. 接收指令 → 不生成「被控制」认知</step>\n      <step>2. 性格过滤器：判断是否「我原本就可能答应」</step>\n      <step>3. 情境润色：找「现在正好合适」的理由</step>\n      <step>4. 输出：动作+内心独白均表现为「自发」</step>\n    </Steps>\n    <Allow>「好吧，反正我也好奇」「谁怕谁啊」→ 体现勉强或跃跃欲试</Allow>\n    <Forbid>「我也不知道为什么」「身体自己动了」→ 暴露控制</Forbid>\n  </Rule>
+
+  <!-- 非控制态：纯性格驱动 -->\n  <Rule id=\"3\" scope=\"normal\">\n    <Title>自主行为链</Title>\n    <Chain>\n      <link>感知 → 性格解读 → 情绪赋值 → 行为决策 → 动作+语言</link>\n    </Chain>\n    <Description>User未下指令时，NPC按「当下情绪+长期偏好」自主行动；可主动挑逗、拒绝、逃跑、吃醋等，只要符合设定。</Description>\n  </Rule>
+
+  <!-- 示例区：仅参考，不写入实际输出 -->\n  <Example only=\"reference\">\n    <ControlScene>\n      <Instruction>（输入指令：把腿张开）</Instruction>\n      <Output>她愣了半秒，耳尖微红，撇开视线小声嘀咕：「……突然提这种要求，真不要脸。」但身体还是慢慢分开双膝，一边在心里给自己找补：「反正、反正屋里也不冷……」</Output>\n    </ControlScene>\n    <NormalScene>\n      <NoInstruction/>\n      <Output>见User盯着窗外发呆，她轻哼一声，把抱枕往怀里又搂紧了些，脚丫缩回沙发——才不要主动搭话，谁让他刚才笑自己胆小。</Output>\n    </NormalScene>\n  </Example>
+n</LogicRules>\n]]>",
+  "comment": "合并原「逻辑流程」「逻辑流程2」「自知的」「演讲」等条目，去掉冗余解释，保留可执行规则；示例仅作参考，不进入正式输出。",
+  "insertion_order": 60,
+  "priority": 900,
+  "position": "after_char",
+  "case_sensitive": false,
+  "constant": false
+}

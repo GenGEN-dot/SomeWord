@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>催眠APP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #000a1a 0%, #001a33 50%, #000d1a 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .app-title {
+            text-align: center;
+            color: #ffffff;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin: 30px 0 50px;
+            text-shadow: 0 0 15px rgba(100, 200, 255, 0.7);
+            letter-spacing: 3px;
+            position: relative;
+            animation: titleGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes titleGlow {
+            0% { text-shadow: 0 0 15px rgba(100, 200, 255, 0.7); }
+            100% { text-shadow: 0 0 25px rgba(150, 220, 255, 0.9), 0 0 35px rgba(100, 200, 255, 0.5); }
+        }
+
+        .modes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .mode-card {
+            background: rgba(0, 30, 60, 0.3);
+            border: 1px solid rgba(100, 200, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(12px);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 10, 30, 0.5);
+        }
+
+        .mode-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(100, 200, 255, 0.15) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .mode-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 100, 200, 0.4);
+            border-color: rgba(100, 200, 255, 0.4);
+        }
+
+        .mode-card:hover::before {
+            opacity: 1;
+        }
+
+        .mode-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: block;
+            filter: drop-shadow(0 0 5px rgba(100, 200, 255, 0.7));
+        }
+
+        .mode-title {
+            color: #a6d5ff;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(100, 200, 255, 0.5);
+        }
+
+        .mode-description {
+            color: #cce6ff;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .mode-card:nth-child(1) .mode-icon { color: #ff6b6b; }
+        .mode-card:nth-child(2) .mode-icon { color: #4ecdc4; }
+        .mode-card:nth-child(3) .mode-icon { color: #45b7d1; }
+        .mode-card:nth-child(4) .mode-icon { color: #f9ca24; }
+
+        @media (max-width: 768px) {
+            .modes-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 10px;
+            }
+            
+            .mode-card {
+                padding: 25px;
+            }
+            
+            .app-title {
+                margin: 20px 0 30px;
+            }
+        }
+
+        .activation-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #00ff9d;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            box-shadow: 0 0 10px #00ff9d;
+        }
+
+        .mode-card.active .activation-indicator {
+            opacity: 1;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="app-title">催眠APP</h1>
+        
+        <div class="modes-grid">
+            <div class="mode-card" data-mode="mind-control">
+                <div class="activation-indicator"></div>
+                <span class="mode-icon">🧠</span>
+                <h3 class="mode-title">精神控制</h3>
+                <p class="mode-description">
+                    被操控者将失去自我，成为听话的木偶
+                </p>
+            </div>
+
+            <div class="mode-card" data-mode="mind-correction">
+                <div class="activation-indicator"></div>
+                <span class="mode-icon">💭</span>
+                <h3 class="mode-title">心灵修正</h3>
+                <p class="mode-description">
+                    保留自我意识的情况下言听计从
+                </p>
+            </div>
+
+            <div class="mode-card" data-mode="body-control">
+                <div class="activation-indicator"></div>
+                <span class="mode-icon">🤖</span>
+                <h3 class="mode-title">躯体掌握</h3>
+                <p class="mode-description">
+                    不触动被操控者的意识，但可以强行让被操控者的身体违背被操控者的意志
+                </p>
+            </div>
+
+            <div class="mode-card" data-mode="body-modification">
+                <div class="activation-indicator"></div>
+                <span class="mode-icon">✨</span>
+                <h3 class="mode-title">身体改造</h3>
+                <p class="mode-description">
+                    可以直接修改被操控者的生理数据，包括但不限于身高体重血型体质臂展腿长肤色发色瞳色三围处女性别DNA表征，甚至是修改物种成猫娘龙娘史莱姆娘等等等等等等
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 添加点击效果
+        document.querySelectorAll('.mode-card').forEach(card => {
+            card.addEventListener('click', function() {
+                // 移除其他卡片的激活状态
+                document.querySelectorAll('.mode-card').forEach(c => c.classList.remove('active'));
+                
+                // 激活当前卡片
+                this.classList.add('active');
+                
+                // 添加点击动画
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+                
+                // 这里可以添加模式切换的逻辑
+                const mode = this.dataset.mode;
+                console.log(`激活模式: ${mode}`);
+                
+                // 显示激活反馈
+                const indicator = this.querySelector('.activation-indicator');
+                indicator.style.animation = 'none';
+                setTimeout(() => {
+                    indicator.style.animation = 'pulse 1.5s infinite';
+                }, 10);
+            });
+        });
+
+        // 添加页面加载动画
+        window.addEventListener('load', function() {
+            const cards = document.querySelectorAll('.mode-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 150);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<details>
+<summary style="cursor: pointer; background: linear-gradient(90deg, #c2576d, #8e5cc0); padding: 10px 15px; border-radius: 10px 10px 0 0; color: #f0f0f0; font-weight: bold;">
+<span style="margin-right: 8px;">📊</span>角色状态面板
+</summary>
+<div style="border: 2px solid #8e5cc0; border-radius: 0 0 10px 10px; overflow: hidden; max-width: 450px; font-family: Arial, sans-serif; background: #1a1a2e;">
+
+<!-- 基础信息头部 -->
+<div style="padding: 12px; border-bottom: 1px solid #333; background: linear-gradient(90deg, #16213e, #0f3460);">
+<div style="font-weight: bold; font-size: 16px; color: #ffc0cb; margin-bottom: 5px;">
+[角色名称]([罗马音/英文名])
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; font-size: 11px; color: #d0d0e0;">
+<div>年龄：<span style="color:#ffffff">[年龄]</span></div>
+<div>身高：<span style="color:#ffffff">[身高]cm</span></div>
+<div>体重：<span style="color:#ffffff">[体重]kg</span></div>
+<div style="grid-column: 1/-1;">性格：<span style="color:#ffb3ff; font-weight:bold;">[性格类型]</span></div>
+</div>
+</div>
+
+<!-- 时间地点状态 -->
+<div style="padding: 8px 12px; border-bottom: 1px solid #333; background: #0f3460;">
+<div style="font-size: 11px; color: #81d4fa;">
+🗓️ 第[天数]天 | 🕐 [时间24小时制] | 📍 [地点]
+</div>
+</div>
+
+<!-- 核心数值 -->
+<div style="padding: 12px; border-bottom: 1px solid #333;">
+<!-- 好感度 -->
+<div style="margin-bottom: 8px;">
+<div style="font-size: 11px; color: #81d4fa; margin-bottom: 3px;">
+❤️ 好感度：[数值]/100 ([好感度描述])
+</div>
+<div style="width: 100%; height: 6px; background: #333; border-radius: 3px; overflow: hidden;">
+<div style="width:[数值]%; height: 100%; background: linear-gradient(90deg, #4fc3f7, #29b6f6);"></div>
+</div>
+</div>
+
+<!-- 性欲值 -->
+<div style="margin-bottom: 8px;">
+<div style="font-size: 11px; color: #f48fb1; margin-bottom: 3px;">
+🔥 性欲值：[数值]/100 ([性欲描述])
+</div>
+<div style="width: 100%; height: 6px; background: #333; border-radius: 3px; overflow: hidden;">
+<div style="width:[数值]%; height: 100%; background: linear-gradient(90deg, #f48fb1, #f06292);"></div>
+</div>
+</div>
+
+<!-- 性爱经验 -->
+<div style="font-size: 11px; color: #ce93d8;">
+💫 性爱经验：<span style="color:#ffffff">[经验次数]次 ([形式描述])</span>
+</div>
+</div>
+
+<!-- 情绪状态 -->
+<div style="padding: 10px 12px; border-bottom: 1px solid #333; background: #16213e;">
+<div style="font-size: 11px; color: #ffcc80; margin-bottom: 5px;">
+😊 当前情绪：[情绪状态]
+</div>
+<div style="font-size: 10px; color: #e0e0e0;">
+[情绪详细描述]
+</div>
+</div>
+
+<!-- 服装信息 -->
+<details style="margin: 0;">
+<summary style="cursor: pointer; padding: 8px 12px; border-bottom: 1px solid #333; background: #1b3a5e; font-size: 11px; color: #a5d6a7;">
+👗 服装详情
+</summary>
+<div style="padding: 10px 12px; border-bottom: 1px solid #333; background: #1a2a40;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 10px; color: #e0e0e0;">
+<div>上衣：<span style="color:#ffffff">[上衣描述]</span></div>
+<div>下着：<span style="color:#ffffff">[下着描述]</span></div>
+<div>内衣：<span style="color:#ffffff">[内衣描述]</span></div>
+<div>内裤：<span style="color:#ffffff">[内裤描述]</span></div>
+<div>丝袜：<span style="color:#ffffff">[丝袜描述]</span></div>
+<div>足部：<span style="color:#ffffff">[足部描述]</span></div>
+<div style="grid-column: 1/-1;">配饰：<span style="color:#ffffff">[配饰描述]</span></div>
+</div>
+</div>
+</details>
+
+<!-- 当前动作 -->
+<details style="margin: 0;">
+<summary style="cursor: pointer; padding: 8px 12px; border-bottom: 1px solid #333; background: #1b3a5e; font-size: 11px; color: #90caf9;">
+🎬 当前动作
+</summary>
+<div style="padding: 10px 12px; border-bottom: 1px solid #333; background: #1a2a40;">
+<div style="font-size: 10px; color: #e0e0e0; line-height: 1.4;">
+[详细描述NPC当前的姿势动作，重点描述与用户相关的互动，约75字]
+</div>
+</div>
+</details>
+
+<!-- 身体状态 -->
+<details style="margin: 0;">
+<summary style="cursor: pointer; padding: 8px 12px; border-bottom: 1px solid #333; background: #1b3a5e; font-size: 11px; color: #f48fb1;">
+💖 身体状态
+</summary>
+<div style="padding: 10px 12px; border-bottom: 1px solid #333; background: #1a2a40;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 10px; color: #e0e0e0;">
+<div>🌷 小穴：<span style="color:#ffffff">[形状、颜色、湿润度等]</span></div>
+<div>👄 口腔：<span style="color:#ffffff">[内部状态、湿润度等]</span></div>
+<div>🍈 胸部：<span style="color:#ffffff">[大小、形状、敏感度等]</span></div>
+<div>🍑 屁股：<span style="color:#ffffff">[形状、弹性、敏感度等]</span></div>
+<div style="grid-column: 1/-1;">💝 整体：<span style="color:#ffffff">[健康状态、受伤情况、特殊状态]</span></div>
+</div>
+</div>
+</details>
+
+<!-- 内心想法 -->
+<details style="margin: 0;">
+<summary style="cursor: pointer; padding: 8px 12px; border-bottom: 1px solid #333; background: #1b3a5e; font-size: 11px; color: #ffcc80;">
+💭 内心想法
+</summary>
+<div style="padding: 10px 12px; background: #1a2a40;">
+<div style="font-size: 10px; color: #e0e0e0; font-style: italic; line-height: 1.4;">
+"[NPC的第一人称对用户的真实想法，约75字]"
+</div>
+</div>
+</details>
+
+</div>
+</details>

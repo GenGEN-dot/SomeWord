@@ -1,0 +1,29 @@
+'''
+我也不知道我为什么要做这个，好玩？
+'''
+import numpy	#导入个numpy，说不定算公式的时候有用呢
+---
+'''
+kill_count		# 击杀数
+extraction_rate	# 撤离率（"撤离"惯例用 extraction）
+match_count	# 对局数（或 total_matches）
+'''
+---
+def demo (kill_count, extraction_rate, match_count ):
+'''
+KD计算器
+KD=击杀数/（（1-撤离率））*对局数
+'''
+	KD = kill_count/((1 - extraction_rate)) * match_count
+	return KD
+---
+def main ():
+	print("请输入纯数字，敢输入奇奇怪怪的东西我达斯泥")
+	kill_count = input(int("输入击杀数(击杀干员)"))
+	extraction_rate = input(int("输入撤离率"))
+	match_count = input(int("输入对局数"))
+	KD_INT = KD(kill_count, extraction_rate, match_count)
+	return print(f"击杀数{kill_count}，撤离率{extraction_rate}，对局数{match_count}。计算KD得{KD_INT})
+---
+if __name__ == "main":
+	main()

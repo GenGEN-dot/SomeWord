@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>催眠APP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a0a2a, #1a1a4a, #0a0a2a);
+            color: #e0e0ff;
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #8a8aff, #c0c0ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 15px rgba(138, 138, 255, 0.5);
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0ff;
+            font-weight: 300;
+        }
+        
+        .modes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .mode-card {
+            background: rgba(20, 20, 60, 0.7);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(100, 100, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .mode-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(to right, transparent, currentColor, transparent);
+        }
+        
+        .mode-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+        
+        .mode-card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        
+        .mode-card p {
+            font-size: 1rem;
+            color: #c0c0ff;
+        }
+        
+        /* 不同模式的颜色主题 */
+        .mind-control {
+            color: #ff6b9d;
+        }
+        
+        .mind-control h2 {
+            color: #ff6b9d;
+        }
+        
+        .mental-correction {
+            color: #4dc2ff;
+        }
+        
+        .mental-correction h2 {
+            color: #4dc2ff;
+        }
+        
+        .body-control {
+            color: #6bff6b;
+        }
+        
+        .body-control h2 {
+            color: #6bff6b;
+        }
+        
+        .body-modification {
+            color: #ffb84d;
+        }
+        
+        .body-modification h2 {
+            color: #ffb84d;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #8080cc;
+            font-size: 0.9rem;
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .mode-card {
+                padding: 20px;
+            }
+            
+            .mode-card h2 {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .modes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>催眠APP</h1>
+            <p class="subtitle">深度精神控制系统 - 谨慎使用</p>
+        </header>
+        
+        <div class="modes-grid">
+            <div class="mode-card mind-control">
+                <h2>精神控制</h2>
+                <p>被操控者将完全失去自我意识，成为绝对服从的听话木偶。此模式将抹除目标的所有自主思维和记忆，使其完全按照操控者的指令行动，无法产生任何反抗念头。</p>
+            </div>
+            
+            <div class="mode-card mental-correction">
+                <h2>心灵修正</h2>
+                <p>保留被操控者的自我意识，但使其对操控者言听计从。目标会保持自己的个性、记忆和思考能力，但在面对操控者时会产生无法抗拒的服从欲望，自愿执行所有指令。</p>
+            </div>
+            
+            <div class="mode-card body-control">
+                <h2>躯体掌握</h2>
+                <p>不触动被操控者的意识层面，直接控制其身体动作。目标会清醒地意识到自己的身体正在违背自身意志行动，但无法阻止这种控制，形成意识与身体的分离状态。</p>
+            </div>
+            
+            <div class="mode-card body-modification">
+                <h2>身体改造</h2>
+                <p>直接修改被操控者的生理数据，包括但不限于身高、体重、血型、体质、臂展、腿长、肤色、发色、瞳色、三围、处女状态、性别、DNA表征等。甚至可以修改物种，将其转化为猫娘、龙娘、史莱姆娘等形

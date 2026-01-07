@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "f79c0948f5bfb057",
+    "type": "split",
+    "children": [
+      {
+        "id": "29c5420f276cec05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "befd75f37593d7e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e26d53cbf75051c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d1a3c9999eafa302",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "be0c36caddb59c23",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": true,
+            "collapseAll": true,
+            "extraContext": true,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "da5052a0556c5938",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "cc1efe6fe3ee0c72",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "d9d769699db2d74f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "785d9af6513b3f50",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "README.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4192bcc8bca72103",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "README.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a7a2cb9473e28234",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "README.md"
+          }
+        }
+      },
+      {
+        "id": "3d4de2b55baa7590",
+        "type": "leaf",
+        "state": {
+          "type": "mermaid-toolbar-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "befd75f37593d7e7",
+  "lastOpenFiles": [
+    "宿敌.md",
+    "大海.md",
+    "心灵感应.md",
+    "万萝宗（划掉）万剑宗.md",
+    "充电宝.md",
+    "充电宝 1.md",
+    "宿敌小情侣对话.md",
+    "世界书.md",
+    "the world 人话版.md",
+    "The_World.md",
+    "Sakurai Seina.md",
+    "Alexandra Rei Vladimirovna Volkonskaya.md",
+    "ShirakiYuzuki.md",
+    "侵入式幻想.md",
+    "文学对话创作记录.md",
+    "GenGEN.zip",
+    "大海.TXT",
+    "柳若若.json.bak",
+    "11749788.tmp",
+    "H市规则怪谈.md",
+    "Sakurai Seina.md.bak",
+    "9434925.tmp",
+    "beta0.3.7_LimboTRPG.md",
+    "物理笔记.md",
+    "物理笔记0.2.md",
+    "未命名"
+  ]
+}
