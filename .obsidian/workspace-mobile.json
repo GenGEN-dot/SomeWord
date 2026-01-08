@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "b9578ffa7938874d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "情与欲/宿敌.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "情与欲/宿敌.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -116,7 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "情与欲/宿敌.md"
+            "file": "README.md"
           }
         }
       },
@@ -143,8 +156,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "befd75f37593d7e7",
+  "active": "b9578ffa7938874d",
   "lastOpenFiles": [
+    "情与欲/宿敌.md",
     "README.md",
     "宿敌.md",
     "人物/柳若若.json",
@@ -170,7 +184,6 @@
     "情与欲/心灵感应.md",
     "情与欲/万萝宗（划掉）万剑宗.md",
     "情与欲/宿敌小情侣对话.md",
-    "情与欲/宿敌.md",
     "情与欲/大海.TXT",
     "情与欲/大海.md",
     "情与欲/H市规则怪谈.md",
