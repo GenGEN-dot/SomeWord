@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "情与欲/宿敌.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "情与欲/宿敌.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "情与欲/宿敌.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -129,7 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "情与欲/宿敌.md"
+            "file": "README.md"
           }
         }
       },
@@ -158,8 +158,8 @@
   },
   "active": "b9578ffa7938874d",
   "lastOpenFiles": [
-    "README.md",
     "情与欲/宿敌.md",
+    "README.md",
     "宿敌.md",
     "人物/柳若若.json",
     "人物/ShirakiYuzuki.md",
