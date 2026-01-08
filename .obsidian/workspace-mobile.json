@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "b9578ffa7938874d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "情与欲/宿敌.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,9 +156,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "befd75f37593d7e7",
+  "active": "b9578ffa7938874d",
   "lastOpenFiles": [
     "README.md",
+    "情与欲/宿敌.md",
     "宿敌.md",
     "人物/柳若若.json",
     "人物/ShirakiYuzuki.md",
@@ -170,7 +184,6 @@
     "情与欲/心灵感应.md",
     "情与欲/万萝宗（划掉）万剑宗.md",
     "情与欲/宿敌小情侣对话.md",
-    "情与欲/宿敌.md",
     "情与欲/大海.TXT",
     "情与欲/大海.md",
     "情与欲/H市规则怪谈.md",
