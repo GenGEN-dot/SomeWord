@@ -10,13 +10,15 @@
           {
             "id": "befd75f37593d7e7",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "情与欲/宿敌.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
