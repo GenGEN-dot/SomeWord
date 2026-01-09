@@ -9,16 +9,16 @@
 - 好吧现在看来应该不只是随笔了现在是文库了额
 - 那就列个待办事项吧
 
-- [x] 大海----
+- [x] 大海 
 - 宿敌
-    - [x] Character I
-    - [ ] Character II
-    - [ ] Character N/a
-- [ ] 心灵感应
-- [ ] 小狗与饲主
-- [ ] 万剑宗
-- [ ] H市规则怪谈
-- [ ] The_World
+    - [x] Character I 
+    - [ ] Character II 
+    - [ ] Character N/a 
+- [ ] 心灵感应 
+- [ ] 小狗与饲主 
+- [ ] 万剑宗 
+- [ ] H市规则怪谈 
+- [ ] The_World 
 - [ ] LimboTRPG
 
 ---

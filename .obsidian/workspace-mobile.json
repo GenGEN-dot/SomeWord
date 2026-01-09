@@ -28,13 +28,12 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "情与欲/宿敌.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "情与欲/宿敌.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -129,7 +128,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "情与欲/宿敌.md"
           }
         }
       },
@@ -156,10 +155,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b9578ffa7938874d",
+  "active": "d1a3c9999eafa302",
   "lastOpenFiles": [
-    "情与欲/宿敌.md",
     "README.md",
+    "情与欲/宿敌.md",
+    "情与欲/宿敌.md.bak",
+    "情与欲/abo.md",
+    "情与欲/狗狗与饲主.md",
+    "未命名.md",
+    "未命名",
     "宿敌.md",
     "人物/柳若若.json",
     "人物/ShirakiYuzuki.md",
@@ -187,11 +191,6 @@
     "情与欲/大海.TXT",
     "情与欲/大海.md",
     "情与欲/H市规则怪谈.md",
-    "情与欲",
-    "大海.md",
-    "心灵感应.md",
-    "万萝宗（划掉）万剑宗.md",
-    "充电宝.md",
-    "GenGEN.zip"
+    "大海.md"
   ]
 }
